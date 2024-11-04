@@ -22,7 +22,7 @@ module.exports = defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless: true, // runs tests in a browser instead of headless mode
+    headless: false, // runs tests in a browser instead of headless mode
   },
 
   /* Configure projects for major browsers */
